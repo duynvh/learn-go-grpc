@@ -1,0 +1,62 @@
+{
+ "id": "8c4cee01-0c9d-423a-a1e1-3f5bdf959a68",
+ "brand": "Dell",
+ "name": "XPS",
+ "cpu": {
+  "brand": "AMD",
+  "name": "Ryzen 7 PRO 2700U",
+  "number_cores": 3,
+  "number_threads": 8,
+  "min_ghz": 3.2331203262659107,
+  "max_ghz": 4.34425478539083
+ },
+ "ram": {
+  "value": "37",
+  "unit": "GIGABYTE"
+ },
+ "gpus": [
+  {
+   "brand": "AMD",
+   "name": "RX 5700-XT",
+   "min_ghz": 1.0254905823083804,
+   "max_ghz": 1.3100377167708646,
+   "memory": {
+    "value": "3",
+    "unit": "GIGABYTE"
+   }
+  }
+ ],
+ "storages": [
+  {
+   "driver": "SSD",
+   "memory": {
+    "value": "587",
+    "unit": "GIGABYTE"
+   }
+  },
+  {
+   "driver": "HDD",
+   "memory": {
+    "value": "5",
+    "unit": "TERABYTE"
+   }
+  }
+ ],
+ "screen": {
+  "size_inch": 14.51753,
+  "resolution": {
+   "width": 3502,
+   "height": 1970
+  },
+  "panel": "IPS",
+  "multitouch": true
+ },
+ "keyboard": {
+  "layout": "QWERTZ",
+  "backlit": true
+ },
+ "weight_kg": 1.735147809426322,
+ "price_usd": 2549.2019569447293,
+ "release_year": 2015,
+ "updated_at": "2022-08-13T11:04:56.496471Z"
+}
