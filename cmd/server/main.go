@@ -9,6 +9,7 @@ import (
 	"net"
 
 	"google.golang.org/grpc"
+	"google.golang.org/grpc/reflection"
 )
 
 func main() {
@@ -19,6 +20,7 @@ func main() {
 	laptopServer := service.NewLaptopServer(service.NewInMemoryLaptopStore(), service.NewDiskImageStore("image"), service.NewInMemoryRatingStore())
 	grpcServer := grpc.NewServer()
 	pb.RegisterLaptopServiceServer(grpcServer, laptopServer)
+	reflection.Register(grpcServer)
 
 	address := fmt.Sprintf("0.0.0.0:%d", *port)
 	listerner, err := net.Listen("tcp", address)
